@@ -1,0 +1,30 @@
+{
+  "name": "homeloans-dev-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "git@github.com:fullnesstech/dev-test.git",
+  "author": "fullness <tech@fullness.io>",
+  "license": "FULLNESS",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "2.1.2",
+    "@mdx-js/react": "2.1.2",
+    "@next/mdx": "12.2.0",
+    "axios": "1.1.3",
+    "gray-matter": "4.0.3",
+    "next": "^12.2.0",
+    "next-mdx-remote": "4.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "4.6.0",
+    "swr": "1.3.0"
+  },
+  "keywords": []
+}

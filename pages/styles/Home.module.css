@@ -1,0 +1,136 @@
+.App {
+  font-family: sans-serif;
+  background: rgb(247, 247, 247);
+}
+.container {
+  border: 2px solid rgb(236, 236, 236);
+  width: 290px;
+  height: 420px;
+  border-radius: 2px;
+  padding: 2px 10px;
+  background: white;
+}
+
+.loanContainer {
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.companyLogo {
+  width: 120px;
+  background: transparent;
+}
+
+.moreInfoContainer,
+.rates,
+.titleContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(236, 232, 232);
+  gap: 5px;
+  margin: 15px auto;
+  padding: 10px;
+}
+.externalContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: -5px auto;
+  padding: 2px;
+}
+.moreInfoContainer {
+  border-top: 2px solid rgb(236, 232, 232);
+}
+.rates {
+  margin: 10px auto;
+  padding: 6px;
+}
+.rate1 {
+  border-right: 2px solid rgb(236, 232, 232);
+  padding-right: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.rate2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.rateHeading {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ratePercent {
+  font-weight: 600;
+  font-size: 22px;
+  /* background: red; */
+  /* margin: -2px auto; */
+}
+.pros p {
+  padding-top: 8px;
+}
+.pro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: grey;
+}
+.goCheck {
+  font-weight: 600;
+}
+.checkBoxContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.moreInfoContainer a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 81, 81);
+  letter-spacing: 0.5px;
+  padding: 2px;
+  text-decoration-thickness: 2px;
+}
+.moreInfoContainer {
+  font-weight: 400;
+}
+/* .externalContainer {
+  margin: 0px auto 10px auto;
+} */
+.goSite {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  background: rgb(20, 180, 90);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.goSite:hover {
+  cursor: pointer;
+}
+.title {
+  color: rgb(105, 105, 105);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}

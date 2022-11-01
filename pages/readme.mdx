@@ -1,0 +1,72 @@
+# Developer Test 2-------------
+
+Your task is to build a React application, Please choose one of tasks to complete from the followings,
+
+### Test:
+Build a product listing page
+
+- request a list of products using the REST api detailed below
+- render products in a table view
+- add ability to paginate the table
+
+Our expectations:
+
+- Good codebase structure
+- ES6
+- Surprise us
+
+## Sample Design
+
+![product showcase](SimilarProductModule.jpeg)
+
+## Notes
+
+This codesandbox is templated based on nextjs framework. Most of the boilerplate is provided. Please go through [docs](https://nextjs.org/docs) if you need to get familiarised with nextjs.
+
+## Deliverable
+
+Please share your codesandbox link over the email with the finished solution.
+
+
+## REST API
+
+Please add http header `x-api-key` with `MaDX2Oo31g3FLAHesYHtGa3rHe40uqkJ8TmbPJn9` when making the requests.
+
+API Endpoint:
+`https://api.ratecity.com.au/v2/home-loans`
+
+Paginate the result by passing the page query parameter:
+`https://api.ratecity.com.au/v2/home-loans?page=2`
+
+Sample responses,
+
+```json
+{
+  "hits": [
+    {
+      "uuid": "f68a68e2-8e21-4f65-93ef-ea46e797e0x5",
+      "name": "Low Rate Home Loan - Prime (Principal and Interest) (Investment) (LVR < 60%)",
+      "companyName": "Homeloans.com.au",
+      "companyDisplayName": "Homeloans.com.au",
+      "companySlug": "homeloans-com-au",
+      "companyType": [
+          "Finance Company"
+      ],
+      "companyLogo": "//production-ultimate-assets.ratecity.com.au/ratecity/image/upload/v1597805820/company/jlxkbh5qzv93otec2crw.png",
+      "companyUrl": "/home-loans/homeloans-com-au",
+      ...
+    },
+    ...
+  ],
+  "meta": {
+    "page": 1,
+    "pageSize": 15,
+    "totalCount": 63,
+    "pageCount": 5,
+    "params": {
+      "page": 1,
+      "pageSize": 15,
+    }
+  }
+}
+```
